@@ -1,2 +1,4 @@
 .venv/
 __pycache__/
+passwd_vault.db
+.env
