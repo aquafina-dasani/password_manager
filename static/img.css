@@ -1,0 +1,10 @@
+body {
+    background-image: url('/static/logan.webp');
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+}
+
+label, h1 {
+    color: white;
+}

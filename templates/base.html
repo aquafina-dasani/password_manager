@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--- this is where code that other html pages that inherit from file will be put -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='img.css')}}">
+    {% block head %}{% endblock %}
+</head>
+
+
+<body>
+    <!--- this is where code that other html pages that inherit from file will be put -->
+    {% block body %}{% endblock %}
+</body>
+</html>

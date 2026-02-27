@@ -1,0 +1,12 @@
+referencing images:
+    since we are in the static folder. If you want to reference an image in css, you'll
+    want to take that into account
+
+referencing css file in html:
+    for html, it's a bit different from normal. You have to use 'url_for()" with the parameters
+    being "url_for('static', filename=<file>)
+
+        -'static' represents the folder name. You don't need to include that when writing
+        the path for the filename
+
+        - filename represents the file path
